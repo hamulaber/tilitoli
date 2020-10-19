@@ -19,7 +19,7 @@ img {
 	text-align:center;
 	width:78%;
 	position:center;
-	/*border: 2px solid red;*/
+	border: 2px solid red;
 	display:inline-block;	
 }
 

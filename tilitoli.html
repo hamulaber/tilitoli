@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" href="tilitoli.css" rel="stylesheet"></style>
+	<script type="text/javascript" src="tilitoli.js"></script>
+</head>
+
+<body onload="alaphelyzet()">
+	<div id="jatekTer">
+	</div>
+	<div id="kezeloTer">
+		<button class="gombok elokeszito" id="kirakottGomb" onclick="kirakottGomb()">Kirakott kép</button>
+		<button class="gombok elokeszito" id="keveresGomb" onclick="keveresGomb()">Keverés</button>
+		<button class="gombok elokeszito" id="ujjatekGomb" onclick="ujjatekGomb()">Új játék</button>
+		<p class="kijelzo futo">Eltelt idő:</p>
+		<p class="ertek futo" id="idomeroSzoveg">0</p>
+		<p class="kijelzo futo">Lépések száma:</p>
+		<p class="ertek futo" id="lepesekSzoveg">0</p>		
+		<button class="gombok futo" id="jatekvegeGomb" onclick="jatekvegeGomb()">Játék vége</button>				
+	</div>
+</body>
+</html>

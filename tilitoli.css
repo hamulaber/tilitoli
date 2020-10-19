@@ -19,7 +19,6 @@ img {
 	text-align:center;
 	width:78%;
 	position:center;
-	border: 2px solid red;
 	display:inline-block;	
 }
 
@@ -57,13 +56,13 @@ img {
 	
 	width:70%;
 	margin:15px auto;
-	height:2.2em;
+	height:2.4em;
 	border-radius:8px;
 	
 	font-size:0.8em;
 }
 
 .gombok:hover {
-	background-color:darkgray;
+	background-color:silver;
 	border:5px solid RGB(70,70,70);
 }
